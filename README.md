@@ -49,7 +49,10 @@ Main-Class: com.android.uiautomator.UiAutomatorViewer
 * [ ] 添加ios版本支持
 * [ ] 添加appium脚本代码
 * [ ] 等等
-
+代码结构：
+com.android.uiautomator:存放uiautomatorviewer工具的GUI界面代码，其中主入口UiAutomatorViewer.java文件里面有main函数入口，工具的窗口就在此创建。
+com.android.uiautomator.actions：存放所有anction操作，如：Device screenshot 、open等。
+com.android.uiautomator.tree：存放tree封装，dump出来的xml解析成一棵完整的tree，这个包是核心包。
 感谢
 ---
 [yangzaiCN/uiautomatorviewer](https://github.com/yangzaiCN/uiautomatorviewer)
